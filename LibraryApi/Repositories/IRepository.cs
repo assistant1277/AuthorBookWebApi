@@ -9,6 +9,5 @@ namespace LibraryApi.Repositories
         public void Delete(T entity);
         public T GetById(int id);
         public IQueryable<T> GetAll();
-
     }
 }
